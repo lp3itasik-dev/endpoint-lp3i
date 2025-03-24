@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  web:
+    container_name: endpoint_lp3i_container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3108:3108"
+    restart: unless-stopped

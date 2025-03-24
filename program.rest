@@ -1,0 +1,9 @@
+# GET programs
+http://localhost:3108/programs
+Content-Type: application/json
+lp3i-api-key: b35e0a901904d293
+###
+# GET program by id
+http://localhost:3108/programs/22
+Content-Type: application/json
+lp3i-api-key: b35e0a901904d293
